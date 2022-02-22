@@ -1,0 +1,18 @@
+class Solution {
+    public int[][] diagonalSort(int[][] mat) {
+        int y = mat.length, x = mat[0].length - 1; //dimensions of the matrix
+        int[] diag = new int[y]; // 3-4 is the setup
+        for (int i = 2 - y; i < x; i++) {
+            int k = 0;
+            for (int j = 0; j < y; j++)
+                if (i+j >= 0 && i+j <= x)
+                    diag[k++] = mat[j][i+j]; // 5-9 extracts each diagonal array and places them into 'diag', 
+            Arrays.sort(diag, 0, k); //sorts the numbers in each array inside of diag
+            k = 0;
+            for (int j = 0; j < y; j++)
+                if (i+j >= 0 && i+j <= x)
+                    mat[j][i+j] = diag[k++]; // 12-14 puts the sorted numbers back into the matrix diagonally
+        }
+        return mat;        
+    }
+} // Sort a matrix diagonally
