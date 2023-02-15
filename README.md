@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Michael Huang
 - 👀 I’m interested in cars, gaming, and sports
-- 🌱 I’m currently learning philosophy at UCLA, and would like to learn more about code
+- 🌱 I just finished my degree in Philosophy at UCLA and would like to learn more about programming and coding
 - 💞️ I’m looking to collaborate on any projects that are willing to take me on
 - 📫 How to reach me: michaelhuang777@gmail.com
